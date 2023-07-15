@@ -12,11 +12,11 @@ cover:
 
 ## Overview
 
-[Anthropic](https://www.anthropic.com/index/claude-2), the AGI-focused firm, has announced the launch of their new model, Claude 2. With improved benchmark scores, enhanced safety measures, and impressive reasoning capabilities, Claude 2 marks an important milestone in their goal of safe AGI development. 
+[Anthropic](https://www.anthropic.com/index/claude-2), the [AGI-focused](https://en.wikipedia.org/wiki/Artificial_general_intelligence) firm, has announced the launch of their new model, Claude 2. With improved benchmark scores, enhanced safety measures, and impressive reasoning capabilities, Claude 2 marks an important milestone in their goal of safe AGI development. 
 
 ## A Look into Anthropic's History
 
-Anthropic emerged from a group of individuals at OpenAI who believed that the partnership with Microsoft was risking the safe advancement of AGI. Hence, they went separate ways, with Anthropic introducing their first noteworthy release, the Claude model, in March 2023. 
+Anthropic emerged from a group of individuals at [OpenAI](https://openai.com/) who believed that the partnership with Microsoft was risking the safe advancement of AGI. Hence, they went separate ways, with Anthropic introducing their first noteworthy release, the Claude model, in March 2023. 
 
 ## Claude 2: An Improved Successor
 
@@ -36,9 +36,9 @@ Claude 2's ability to reason, even when presented with sophisticated questions, 
 
 ## In Conclusion
 
-With robust reasoning and impressive performance, Claude 2 emerges as an impressive choice in the AGI world. If you find this intriguing, check out their API and pricing details on their website.
+With robust reasoning and impressive performance, Claude 2 emerges as an impressive choice in the AGI world. If you find this intriguing, check out Claude 2 you can try is by yourself.
 
-Stay with me for more updates on AI and various technologies :) 
+Stay with me for more updates on Tech...
 
 ---
 
