@@ -1,0 +1,107 @@
+baseURL: "https://arkalim.org"
+languageCode: en-us
+title: liticx
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Siddhant Panpatil"
+    subtitle: "Hello! 😊 I'm Siddhant Panpatil, an undergraduate student studying Electronics and Communication Engineering at the prestigious IIIT, in Nagpur, India. My academic and personal interests lie strongly within the realms of cybersecurity 🔒, artificial intelligence (AI) 🤖, and reverse engineering. I'm captivated by the profound implications and the transformative power these domains hold in our ever-evolving digital world 🌐.
+
+As a cybersecurity enthusiast, I am committed to comprehending and protecting digital identities, acknowledging the critical role they play in our interconnected society. I am particularly intrigued by the capabilities of AI, especially the potential for machines to learn and adapt independently 🧠.
+
+Through my blog 💻, I strive to demystify complex technological concepts, making them more accessible and less intimidating. I share my insights and experiences in cybersecurity and AI, aiming to spark curiosity and foster understanding among my readers 📚.
+
+I invite you to join me on this enlightening journey, as we delve into the complexities of cybersecurity, explore the limitless potential of AI, and discuss the profound influence these fields exert on our daily lives 🌟. Let's chart the course of future technology together! 👫"
+    imageUrl: "home/avatar.jpg"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:user.liticx@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/siddhant-panpatil-2617951a4/"
+    - name: "github"
+      url: "https://github.com/liticx"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/UCImRqotlWFgInBSCFqMCtwg"
+    - name: "cv"
+      url: "https://twitter.com/cryleafy"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
